@@ -1,0 +1,13 @@
+{
+  "id": "sample-circuit",
+  "name": "Sample Circuit",
+  "summary": "A minimal circuit bundling sample-kit",
+  "description": "Demonstrates how kits are bundled into a circuit.",
+  "version": "0.1.0",
+  "kits": [
+    {
+      "kitId": "sample-kit",
+      "version": "0.1.0"
+    }
+  ]
+}

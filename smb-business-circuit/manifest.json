@@ -1,0 +1,28 @@
+{
+  "manifestVersion": 1,
+  "id": "smb-business-circuit",
+  "name": "SMB Business Circuit",
+  "summary": "Stub circuit for small business automation.",
+  "description": "Placeholder circuit that will eventually bundle lead generation and finance automation kits.",
+  "version": "0.1.0",
+  "verticals": [
+    "smb"
+  ],
+  "tags": [
+    "smb",
+    "automation"
+  ],
+  "kits": [
+    {
+      "kitId": "lead-gen-kit",
+      "version": "0.1.0"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "BLKC Core Team",
+      "role": "Platform"
+    }
+  ],
+  "status": "draft"
+}

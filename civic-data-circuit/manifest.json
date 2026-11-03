@@ -1,0 +1,31 @@
+﻿{
+    "manifestVersion":  1,
+    "id":  "civic-data-circuit",
+    "name":  "Civic Data Circuit",
+    "summary":  "Delivers searchable civic data pipelines.",
+    "description":  "Combines public records ingestion and indexing into a turnkey solution for civic transparency portals.",
+    "version":  "0.1.0",
+    "verticals":  [
+                      "civic",
+                      "open-data"
+                  ],
+    "tags":  [
+                 "civic",
+                 "transparency"
+             ],
+    "kits":  [
+                 {
+                     "kitId":  "public-records-kit",
+                     "version":  "0.1.0"
+                 }
+             ],
+    "maintainers":  [
+                        {
+                            "name":  "BLKC Core Team",
+                            "role":  "Platform"
+                        }
+                    ],
+    "status":  "released",
+    "launchDate":  "2025-09-20",
+    "repository":  "https://github.com/blkc-community/circuits/tree/main/civic-data-circuit"
+}
