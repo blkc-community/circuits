@@ -1,0 +1,33 @@
+{
+  "manifestVersion": 2,
+  "id": "block-builder",
+  "name": "Block Builder",
+  "summary": "The factory: describe a job, then generate blocks.",
+  "description": "How a block moves from an idea to a published, published-ready, first-party block. The operator describes the job and gives examples; the builder fetches an LLM answer, walks the candidate pipeline (rules, VADER or spaCy, SetFit), evaluates every candidate version against a held-out set, and packages the winner as a block. No code is written to a package until the eval clears the gate. Run with the user's own keys only — nothing is hosted.",
+  "version": "0.1.0",
+  "verticals": ["block-building", "content"],
+  "tags": ["block-building", "llm", "eval"],
+  "license": "MIT",
+  "kits": [
+    {
+      "kitId": "block-builder",
+      "version": "0.1.0"
+    }
+  ],
+  "capabilities": [
+    {
+      "blockId": "block-builder",
+      "version": "0.1.0",
+      "required": true,
+      "config": {}
+    }
+  ],
+  "maintainers": [
+    {"name": "BLKC Core Team", "role": "Platform"}
+  ],
+  "repository": "https://github.com/blkc-community/circuits/tree/main/block-builder",
+  "status": "draft",
+  "integrations": [
+    {"name": "openreel", "optional": true, "description": "A Herdr bridge for design-system handoff (describe the job to the generator and read the result back)."}
+  ]
+}

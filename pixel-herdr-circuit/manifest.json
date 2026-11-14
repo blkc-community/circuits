@@ -1,0 +1,20 @@
+{
+  "id": "pixel-herdr-circuit",
+  "name": "Pixel Herdr Circuit",
+  "summary": "A vertical that turns a project into a pixel-art office driven by Herdr's live agent runtime.",
+  "description": "Bundles the Pixel Office kit with the Herdr bridge: agents appear in the office automatically from Herdr's per-pane semantic state, liveness, foreground working directory (auto-room), model tokens, and workspace/space context. Quests and task text remain office-owned. Degrades to the plain Pixel Office kit when Herdr is not running.",
+  "version": "0.1.0",
+  "kits": [
+    {
+      "kitId": "pixel-office",
+      "version": "0.1.0"
+    }
+  ],
+  "integrations": [
+    {
+      "name": "herdr",
+      "optional": true,
+      "description": "Optional live agent runtime. When present, HERDR_SOCKET_PATH or HERDR_ENV=1 activates the bridge."
+    }
+  ]
+}

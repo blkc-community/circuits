@@ -1,0 +1,21 @@
+{
+  "manifestVersion": 2,
+  "id": "block-builder",
+  "name": "Block Builder Kit",
+  "summary": "Packages a first-party block from a builder candidate.",
+  "description": "A thin kit that installs the block-builder capability and its eval set. Used by the block-builder circuit to publish a new block.",
+  "version": "0.1.0",
+  "category": "block-building",
+  "blocks": [
+    {
+      "blockId": "block-builder",
+      "version": "0.1.0",
+      "path": "block-builder"
+    }
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {"name": "BLKC Core Team", "role": "Platform"}
+  ],
+  "status": "draft"
+}
